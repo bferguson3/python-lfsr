@@ -65,7 +65,7 @@ class lfsr(object):
         return '$' + format(int(out,2), '02x')
 
     def tick_output(self, n=1):
-        ''' returns 'n' outputs [0/1] concatenated to a single integer '''
+        ''' returns 'n' outputs [0/1] concatenated to a single binary string '''
         i = 0
         out = []
         while i < n:
